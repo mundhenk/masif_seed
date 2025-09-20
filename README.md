@@ -41,8 +41,8 @@ we strongly recommend you use the Dockerfile and Docker container.
 ```
 git clone https://github.com/LPDI-EPFL/masif_seed.git
 cd masif_seed
-docker build . -t masif_seed 
-docker run -it -v $PWD:$PWD masif_seed
+podman build . -t masif_seed --format docker 
+podman run -it -v $PWD:$PWD masif_seed
 ```
 
 ## Step-by-step example
