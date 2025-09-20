@@ -39,7 +39,7 @@ Since MaSIF-seed relies on a few external programs (msms, APBS) and libraries (p
 we strongly recommend you use the Dockerfile and Docker container. 
 
 ```
-git clone https://github.com/LPDI-EPFL/masif_seed.git
+git clone https://github.com/mundhenk/masif_seed.git
 cd masif_seed
 podman build . -t masif_seed --format docker 
 podman run -it -v $PWD:$PWD masif_seed
